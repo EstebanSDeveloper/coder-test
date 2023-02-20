@@ -1,6 +1,6 @@
 export default class ProductManagaer {
-  #path
-constructor(path){
-  #path= path
-  }
+	#path;
+	constructor(path) {
+		this.#path = path;
+	}
 }
